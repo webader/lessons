@@ -89,6 +89,8 @@ body{
     max-width: unset;
     width: 894px;
     height: 950px;
+
+    pointer-events: none;
 }
 
 /*Nav*/
