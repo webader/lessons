@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="header none">
+    <header class="header">
         <div class="container">
             <div class="header__top">
                 <nav class="nav">
@@ -28,10 +28,9 @@
                     </ul>
                     <ul class="nav__login">
                         <li><a href="#!">Sign up</a></li>
-                        <li><a href="#!" class="btn">Login</a></li>
+                        <li><a href="#!" class="btn btn--login">Login</a></li>
                     </ul>
                 </nav>
-
             </div>
             <div class="header__row">
                 <div class="header__content">
@@ -46,8 +45,8 @@
                             explore the beauty of god's earth in a beautiful forest and have fun
                         </p>
                     </div>
-                    <a href="" class="header__btn">
-                        Exsplore Now
+                    <a href="" class="btn btn--header">
+                        Explore Now
                     </a>
                 </div>
                 <div class="header__img">
@@ -62,7 +61,7 @@
     </header>
 
     <main>
-        <section class="destinations none">
+        <section class="destinations">
             <div class="container-right">
                 <div class="destinations__row">
                     <div class="destinations__content">
@@ -95,7 +94,7 @@
                 </div>          
             </div>
         </section>
-        <section class="customers none">
+        <section class="customers">
             <div class="container">
                 <div class="customers__row">
                     <div class="customers__img">
@@ -133,7 +132,7 @@
                 </div>
             </div>
         </section>
-        <section class="cta none">
+        <section class="cta">
             <div class="container">
                 <div class="cta__plate">
                     <h2 class="cta__title">
@@ -154,12 +153,40 @@
                         Subscribe To Our Newsletter
 
                     </h2>
-                    <form action="#" class="subscribe-form"></form>
+                    <form class="subscribe-form">
+                        <input type="email" class="subscribe-form__input" placeholder="Yourmail@mail.com">
+                        <button class="subscribe-form__btn">
+                            Subscribe
+                        </button>
+                    </form>
                 </div>
             </div>
         </section>
         
     </main>
+
+    <footer class="footer">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav__logo">
+                    <h2 class="logo logo--footer">
+                        <a href="#!">GoTrip</a>
+                    </h2>
+                </div>
+                <ul class="nav__list nav__list--footer">
+                    <li><a href="#!">Home</a></li>
+                    <li><a href="#!">Services</a></li>
+                    <li><a href="#!">Pricing</a></li>
+                    <li><a href="#!">Contact</a></li>
+                </ul>
+                <ul class="nav__login">
+                    <li><a href="#!">Sign up</a></li>
+                    <li><a href="#!" class="btn btn--login">Login</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
